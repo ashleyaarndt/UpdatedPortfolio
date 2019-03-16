@@ -1,0 +1,46 @@
+#contactForm {
+  margin: 0 auto;
+ 
+
+}
+
+#contactForm input,
+textarea {
+  letter-spacing: 2px;
+  font: 200 1em/1.1em "PT Sans Narrow", sans-serif;
+
+  color: #000;
+  background-color: RGBA(204, 204, 204, 0.1);
+
+  outline: none;
+  border: none;
+
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  width: 90%;
+  max-width: 400px;
+}
+
+#contactForm textarea {
+  height: 150px;
+
+}
+
+#contactForm *:focus {
+  background-color: RGBA(254, 191, 4, 1);
+}
+
+#contactForm *:hover {
+  background-color: RGBA(254, 191, 4, 1);
+}
+
+::-webkit-input-placeholder {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: black;
+}
+
+html {
+    background-color: indigo;
+    
+}
